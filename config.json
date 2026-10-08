@@ -1,0 +1,7 @@
+{
+  "sources": [
+    {"name": "OpenAI 新闻", "type": "rss", "url": "https://openai.com/news/rss.xml"},
+    {"name": "ChatGPT 与 Codex 官方更新日志", "type": "changelog", "url": "https://learn.chatgpt.com/docs/changelog"},
+    {"name": "OpenAI 状态公告", "type": "rss", "url": "https://status.openai.com/history.rss"}
+  ]
+}
