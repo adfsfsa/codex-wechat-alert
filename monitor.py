@@ -35,7 +35,7 @@ def stamp(dt):
 def parse_date(value):
     try:
         dt = datetime.fromisoformat(value.replace('Z', '+00:00'))
-    except (ValueError, AttributeError):
+    except (ValueError, TypeError, AttributeError):
         try:
             dt = parsedate_to_datetime(value)
         except (ValueError, TypeError, AttributeError):

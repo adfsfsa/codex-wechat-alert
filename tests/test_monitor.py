@@ -24,6 +24,9 @@ def state():
 
 
 class MonitorTests(unittest.TestCase):
+    def test_parse_date_rejects_invalid_binary_input(self):
+        self.assertIsNone(m.parse_date(b'Wed, 01 Jan 2025 00:00:00 GMT'))
+
     def run_items(self, s, items, push=lambda *a: None, dry=False):
         with patch.object(m, 'fetch', return_value=''), patch.object(m, 'parse_source', return_value=items):
             return m.run(CONFIG, s, NOW, push, dry)
