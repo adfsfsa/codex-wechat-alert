@@ -4,17 +4,17 @@
     "OpenAI 新闻": {
       "initialized": true,
       "failures": 0,
-      "last_success": "2026-11-22T03:09:54.581424+00:00"
+      "last_success": "2026-11-22T11:19:20.860245+00:00"
     },
     "ChatGPT 与 Codex 官方更新日志": {
       "initialized": true,
-      "failures": 5,
+      "failures": 6,
       "last_success": "2026-11-20T20:13:41.573918+00:00"
     },
     "OpenAI 状态公告": {
       "initialized": true,
       "failures": 0,
-      "last_success": "2026-11-22T03:09:54.581424+00:00"
+      "last_success": "2026-11-22T11:19:20.860245+00:00"
     }
   },
   "seen": {
@@ -4824,6 +4824,6 @@
     "date": "2026-11-22",
     "attempts": 1
   },
-  "last_check": "2026-11-22T03:09:54.581424+00:00",
+  "last_check": "2026-11-22T11:19:20.860245+00:00",
   "last_health": "2026-11-21T17:29:08.705209+00:00"
 }
